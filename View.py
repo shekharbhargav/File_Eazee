@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 
-class SampleApp(tk.Tk):
+class fileeazeApp(tk.Tk):
 
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
@@ -195,5 +195,5 @@ class InstentBackup(tk.Frame):
 
 
 if __name__ == "__main__":
-    app = SampleApp()
+    app = fileeazeApp()
     app.mainloop()
